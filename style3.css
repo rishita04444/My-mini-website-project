@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    background-color: #8b6c5c;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+header a{
+    color: black;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.navmenu{
+    display: flex;
+}
+
+.navmenu a{
+    color: #0b0103;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+
+.navmenu a:hover{
+    color: #EE1C47;
+}
+
+section{
+    padding: 10% 15%;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img01.ztat.net/article/spp-media-p1/e60b050e9c124af587783d23b0893001/740932027e9e4d50a05e6054a5691519.jpg?imwidth=762);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+
+.main-text p{
+    color: #0b0103;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+
+
+
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box{
+    width: 400px;
+    background-color: #FDE7E5;
+    border: 1px solid #74342B;
+    margin: 30px;
+}
+
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+
+footer.foot {
+    background: #8b6c5c;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-direction: row;
+}
+
+
+.social a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.5s ease-out;
+}
+.social a i
+{
+    font-size:xx-large;
+    color: black;
+}
+.social a:hover {
+    background-color: #ac736b;
+
+}
+
+
+@media screen and (max-width: 750px) {
+    nav.nav-bar {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    div.logo {
+        width: 100%;
+    }
+    ul.menu-items {
+        width: 100%;
+        overflow:visible;
+        gap: 10px;
+    }
+    ul.menu-items li a {
+        font-size: 13px;
+    }
+    section.sec-1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    div.left, div.right {
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 45px;
+}
+
+.blog-heading span{
+    color: brown;
+}
+
+.blog-heading h3{
+    font-size: 2.1rem;
+    color: black;
+    font-weight: 600s;
+}
+
+.blog-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 45px;
+}
+
+.blog-one h3{
+    font-size: 2.1rem;
+    color: rgb(85, 78, 186);
+    font-weight: 600s;
+}
+
+.te{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 25px;
+}
